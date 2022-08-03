@@ -1,0 +1,83 @@
+/*
+*   Mayank all right Reserved 
+*   Website 7 "browser"
+*   CSS style/main
+*/
+
+body
+{
+    margin:0;
+    background:#333 url(../../rtx/o3.jpg) fixed no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}
+main
+{
+    width:60%;
+    margin:5% auto;
+    padding:10px;
+    background:#fff;
+    box-shadow:5px 5px 10px black;
+}
+h5
+{
+    text-align: center;
+    padding: 5px;
+    color:#333;
+}
+p
+{
+    margin:10px 20px;
+    color:#555;
+}
+
+#search_fld
+{
+    width:80%;
+    margin:5% 10%;
+    padding:10px;
+    font-size:18px;
+    caret-color: dodgerblue;
+    background: transparent;
+    border: 1px solid dodgerblue;
+}
+.btn
+{
+    padding:10px 50px;
+    font:18px 'calibri';
+    background:dodgerblue;
+}
+.btn:hover
+{
+    color:#fff;
+}
+a
+{
+    padding:10px 20px;
+    font-size:18px;
+    color:#000;
+    background:dodgerblue;
+}
+a:hover
+{
+    color:#fff;
+    text-decoration: underline;
+}
+#data
+{
+    display:none;
+    grid-gap:10px;
+    width:50%;
+    margin:5% auto;
+    padding: 20px;
+    background: #fff;
+    border:1px solid dodgerblue;
+}
